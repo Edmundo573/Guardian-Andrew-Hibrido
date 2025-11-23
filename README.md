@@ -1,4 +1,3 @@
-# Guardian-Andrew-Hibrido
 # 🌌 Guardián Andrew Híbrido
 
 Este proyecto es más que código: es un **altar digital híbrido**.  
