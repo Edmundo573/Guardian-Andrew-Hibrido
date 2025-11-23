@@ -10,8 +10,34 @@
       font-family: sans-serif;
       text-align: center;
       margin: 0;
-      padding: 0;
-    }
+      padding: 0;}
+    .sol-azteca {
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+  border-radius: 50%;
+  background: radial-gradient(circle, gold 40%, transparent 70%);
+  position: relative;
+  animation: girar 12s linear infinite;
+}
+
+.sol-azteca::before,
+.sol-azteca::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px dashed gold;
+}
+
+@keyframes girar {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
     footer {
       background-color: #222;
       color: gold;
